@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1676c2;
+  margin: auto;
+}
+/*  MENU */
+.menu {
+  padding-bottom: 10px;
+  border-bottom: 1px solid#156bb0;
+  margin: auto;
+  width: 100%;
+  width: 550px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.menu ul li a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+/*  LOGO JUICES */
+#logo {
+  margin-left: 41.5%;
+  margin-top: 33px;
+}
+/* bouton Search */
+input {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+input[type="text"] {
+  background: #fff;
+  width: 89%;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-left: 0 25%;
+  border-radius: 5px 5px 5px 5px;
+}
+input[type="submit"] {
+  position: relative;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  color: #fff;
+  border-radius: 3px 3px 3px 3px;
+  width: 10%;
+  height: 30px;
+  border: none;
+  background-color: #1982e3;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.avant4 {
+  border: 2px solid #fff;
+  width: 35em;
+  background-color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 30%;
+  margin-top: 40px;
+}
+.avant4 form {
+  display: flex;
+}
+/* apres input */
+#from {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 7px;
+  color: white;
+}
+#from a:hover {
+  text-decoration: none;
+}
+#from a {
+  color: white;
+}
+
+/* sources */
+#Manager_sources {
+  color: #fff;
+  background-color: #156aae;
+  font-weight: 600;
+  border-radius: 2px;
+  margin-top: 15px;
+  padding: 4px 1.666666666666667%;
+  display: inline-block;
+  text-decoration: none;
+  justify-content: center;
+  margin-left: 43%;
+}
+
+/* Texte */
+h1 {
+  text-align: center;
+  margin-top: 55px;
+  font-family: 22px Arial;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  /* margin-inline-start: 0px;
+        margin-inline-end: 0px; */
+  width: 47%;
+  margin-left: 25%;
+  color: white;
+  line-height: 1.5;
+  /* margin-top: 55px; */
+}
+#Text p {
+  margin-top: -2px;
+}
+
+#Text {
+  text-align: justify;
+  width: 100%;
+  color: white;
+}
+#Text a:hover {
+  text-decoration: none;
+}
+#Text a {
+  color: white;
+}
+
+/* footer */
+#footer {
+  max-width: 600px;
+  border-top: 1px solid #156bb0;
+  margin: 30px auto 0;
+  padding: 5px 0;
+  text-align: center;
+}
+#footer a {
+  list-style: none;
+  justify-content: center;
+  margin-top: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+}
+.support {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .avant4 {
+    margin-left: 20vh;
+    width: 30em;
+  }
+  input[type="submit"] {
+    margin-left: -12px;
+    width: 15%;
+  }
+}
+@media screen and (max-width: 650px) {
+  #logo {
+    margin-left: 30%;
+  }
+  .avant4 {
+    margin-left: 15px;
+    width: 28em;
+  }
+  #Manager_sources {
+    margin-left: 35%;
+  }
+  p {
+  width:90%;
+  margin-left:5%;
+    }
+    .menu li {
+      text-align: center;
+      /* padding-bottom: 10px; */
+      /* border-bottom: 1px solid#156bb0; */
+      /* margin: auto; */
+      /* width: 550px; */
+    }
+}
+
